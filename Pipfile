@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+pydantic = "*"
+websockets = "*"
+sqlalchemy = "*"
+alembic = "*"
+email-validator = "*"
+passlib = "*"
+bcrypt = "*"
+pytest = "*"
+requests = "*"
+python-dotenv = "*"
+pyjwt = "*"
+
+[dev-packages]
+pylint = "*"
+ipykernel = "*"
+
+[requires]
+python_version = "3.10"
